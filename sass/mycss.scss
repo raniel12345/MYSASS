@@ -1,0 +1,86 @@
+
+@import 'variables';
+
+body{
+    background-color: $primary-background-color;
+    color: $primary-font-color;
+    font-family: $font-stack;
+    padding: 0;
+    margin: 0;
+}
+
+.main-content{
+    @extend body;
+    min-width: $min-width;
+    margin-top: 50px;
+}
+
+@mixin base-container($width) {
+    background-color: white;
+    width: $width;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+// container
+.container{
+    @include base-container($container-width);
+}
+
+.container-fluid{
+    @include base-container($container-width-fluid);
+}
+
+.container-block{
+    @include base-container($container-width-block);
+    margin-top: 0;
+    border-radius: 0;
+}
+
+// Buttons
+@mixin base-btn($background-color) {
+    background-color: $background-color;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: auto;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn-primary{
+    @include base-btn($primary-color);
+}
+.btn-danger{
+    @include base-btn($danger-color);
+}
+.btn-success{
+    @include base-btn($success-color);
+}
+.btn-disable{
+    @include base-btn($disable-color);
+}
+.btn-done{
+    @include base-btn($done-color);
+}
+
+
+// Input box
+
+@mixin base-input-fld($font-size) {
+    max-width: 300px;
+    width: 300px;
+    border: 1px solid skyblue;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: $font-size;
+    color: $primary-font-color;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.primary-input-fld{
+    @include base-input-fld(15px);
+}

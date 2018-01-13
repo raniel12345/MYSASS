@@ -1,0 +1,142 @@
+body, .main-content {
+  background-color: #dcdfe5;
+  color: #535353;
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+  margin: 0; }
+
+.main-content {
+  min-width: 500px;
+  margin-top: 50px; }
+
+.container {
+  background-color: white;
+  width: 75%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px; }
+
+.container-fluid {
+  background-color: white;
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px; }
+
+.container-block {
+  background-color: white;
+  width: 95%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-top: 0;
+  border-radius: 0; }
+
+.btn-primary {
+  background-color: #0b97ed;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 4px; }
+
+.btn-danger {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 4px; }
+
+.btn-success {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 4px; }
+
+.btn-disable {
+  background-color: #e7e7e7;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 4px; }
+
+.btn-done {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 4px; }
+
+.primary-input-fld {
+  max-width: 300px;
+  width: 300px;
+  border: 1px solid skyblue;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #535353;
+  margin: auto;
+  margin-top: 2px;
+  margin-bottom: 2px; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.spot-topbar-brand {
+  min-width: 500px;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  background-color: #133445;
+  color: white;
+  height: auto;
+  line-height: 0.1;
+  border-top: 2px solid #1995AD; }
+  .spot-topbar-brand h3 {
+    font-size: 25px; }
+  .spot-topbar-brand p i {
+    font-size: 12px; }
+
+.spot-topbar {
+  width: 100%;
+  font-size: 15px;
+  background-color: #0b97ed;
+  z-index: 2;
+  overflow: hidden; }
+  .spot-topbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0; }
+    .spot-topbar ul li {
+      float: left; }
+      .spot-topbar ul li a {
+        display: block;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 15px 12px;
+        text-decoration: none; }
+      .spot-topbar ul li a:hover {
+        background-color: #1a6391; }
+      .spot-topbar ul li a.active {
+        background-color: #1a6391; }
+    .spot-topbar ul li.right {
+      float: right; }
+
+/*# sourceMappingURL=mycss.css.map */

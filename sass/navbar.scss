@@ -1,0 +1,72 @@
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+// spot Navbar
+
+.spot-topbar-brand{
+    min-width: $min-width;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background-color: $tertiary-color;
+    color: white;
+    height: auto;
+    line-height: 0.1;
+    border-top: 2px solid $quarternary-color;
+
+    h3{
+        font-size: 25px;
+    }
+
+    p i{
+        font-size: 12px;
+    }
+}
+
+.spot-topbar{
+    // min-width: $min-width;
+    width: 100%;
+    font-size: 15px;
+    background-color: $primary-color;
+    // position: fixed;
+    // top:0;
+    z-index: 2;
+    overflow: hidden;
+
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+        display: block;
+        margin: 0;
+        padding: 0;
+
+        li{
+            float: left;
+
+            a{
+                display: block;
+                color: #FFFFFF;
+                text-align: center;
+                padding: 15px 12px;
+                text-decoration: none;
+            }
+            a:hover{
+                background-color: $secondary-color;
+            }
+
+            a.active{
+                background-color: $secondary-color;
+            }
+        }
+
+        li.right{
+            float:right;
+        }
+    }
+}
+
+// Navbar continer

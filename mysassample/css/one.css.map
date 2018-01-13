@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,OAAO,EAAC,IAAI;EACZ,gBAAgB,EAAC,GAAG",
+"sources": ["../sass/one.scss"],
+"names": [],
+"file": "one.css"
+}

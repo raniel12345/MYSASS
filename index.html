@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MY CSS</title>
+        <link rel="stylesheet" href="css/mycss.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="spot-topbar-brand">
+                <h3>SPOT NAVBAR BRAND</h3>
+                <p> <i>Brand description</i> </p>
+            </div>
+            <nav class="spot-topbar" id="navbar">
+                <ul>
+                    <li> <a href="#" class="active">HOME</a> </li>
+                    <li> <a href="#">ABOUT US</a> </li>
+                    <li> <a href="#">CONTACT US</a> </li>
+                    <li class="right"> <a href="#">CONTACT US</a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="main-content">
+
+            <div class="container-block">
+                <h3>Container Block</h3>
+            </div>
+
+            <div class="container">
+                <h3>Buttons</h3>
+                <input type="submit" class="btn-primary" value="Primary">
+                <input type="submit" class="btn-danger" value="Danger">
+                <input type="submit" class="btn-success" value="Success">
+                <input type="submit" class="btn-disable" value="Disable">
+                <input type="submit" class="btn-done" value="Done">
+            </div>
+
+            <div class="container">
+                <h3>Buttons</h3>
+                <input type="submit" class="btn-primary" value="Primary">
+                <input type="submit" class="btn-danger" value="Danger">
+                <input type="submit" class="btn-success" value="Success">
+                <input type="submit" class="btn-disable" value="Disable">
+                <input type="submit" class="btn-done" value="Done">
+            </div>
+
+            <div class="container-fluid">
+                <h3>Container Fluid</h3>
+            </div>
+
+            <div class="container">
+                <input type="text" class="primary-input-fld">
+            </div>
+        </div>
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>
+
+    </body>
+</html>
